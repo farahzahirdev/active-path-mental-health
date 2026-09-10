@@ -29,7 +29,7 @@ export const copy = {
     headlineLine3: "Depression",
     headlineAccent: "& Anxiety",
     subheadline:
-      "Personalized TMS Therapy and SPRAVATO® across Oregon and Washington — FDA-cleared, insurance-friendly care when medications and therapy haven’t been enough.",
+      "Personalized TMS Therapy and SPRAVATO® across Oregon and Washington. FDA-cleared, insurance-friendly care when medications and therapy haven’t been enough.",
     primaryCta: ctas.bookConsult,
     secondaryCta: ctas.qualify,
     chips: [
@@ -65,7 +65,7 @@ export const copy = {
   whatIsTms: {
     eyebrow: "TMS Therapy",
     headline: "Drug-free relief for depression that hasn’t budged",
-    body: "Transcranial Magnetic Stimulation uses focused magnetic pulses to stimulate areas of the brain involved in mood. At Active Path, we offer BrainsWay and NeuroStar — FDA-cleared devices for adults who haven’t found enough relief with medication alone.",
+    body: "Transcranial Magnetic Stimulation uses focused magnetic pulses to stimulate areas of the brain involved in mood. At Active Path, we offer BrainsWay and NeuroStar, FDA-cleared devices for adults who haven’t found enough relief with medication alone.",
     points: [
       {
         title: "Non-invasive & medication-free",
@@ -77,7 +77,7 @@ export const copy = {
       },
       {
         title: "Outpatient sessions",
-        body: "Brief in-clinic visits that fit into your week — then you return to your day.",
+        body: "Brief in-clinic visits that fit into your week, then you return to your day.",
       },
     ],
     cta: ctas.bookConsult,
@@ -117,7 +117,7 @@ export const copy = {
   whyChoose: {
     eyebrow: "Why Active Path",
     headline: "Personalized care that never gives up",
-    body: "We specialize in advanced, evidence-based treatments for depression and related conditions — delivered with warmth across Oregon and Washington.",
+    body: "We specialize in advanced, evidence-based treatments for depression and related conditions, delivered with warmth across Oregon and Washington.",
     cards: [
       {
         title: "Care that never gives up",
@@ -129,15 +129,15 @@ export const copy = {
       },
       {
         title: "Insurance accepted",
-        body: "Covered by most major plans — Aetna, Cigna, Kaiser, Providence, Regence, and more.",
+        body: "Covered by most major plans, including Aetna, Cigna, Kaiser, Providence, Regence, and more.",
       },
       {
         title: "Oregon & Washington clinics",
-        body: "Six locations so care is nearby — Clackamas, Portland, Salem, Tigard, Kirkland, Vancouver.",
+        body: "Six locations so care is nearby: Clackamas, Portland, Salem, Tigard, Kirkland, and Vancouver.",
       },
       {
         title: "Personalized plans",
-        body: "Care built on real data and lived experience — not a one-size-fits-all protocol.",
+        body: "Care built on real data and lived experience, not a one-size-fits-all protocol.",
       },
       {
         title: "Licensed providers",
@@ -165,7 +165,7 @@ export const copy = {
     eyebrow: "Who Qualifies",
     headline: "Is advanced depression care right for you?",
     subheadline:
-      "TMS and SPRAVATO® may help if you’ve tried multiple treatments without enough relief — or you’re seeking a non-drug or advanced alternative.",
+      "TMS and SPRAVATO® may help if you’ve tried multiple treatments without enough relief, or you’re seeking a non-drug or advanced alternative.",
     items: [
       {
         title: "Treatment-Resistant Depression",
@@ -189,7 +189,7 @@ export const copy = {
   supportiveVideos: {
     eyebrow: "Learn more",
     headline: "TMS & SPRAVATO® videos",
-    body: "Hear how these treatments work — and real stories from people who found relief at Active Path.",
+    body: "Hear how these treatments work, and real stories from people who found relief at Active Path.",
     items: [
       {
         videoKey: "tmsWhatIs" as const,
@@ -225,7 +225,7 @@ export const copy = {
     items: [
       {
         q: "Do you accept insurance?",
-        a: "Yes — most major plans are accepted, including Aetna, Cigna, Providence, Kaiser, Regence, Premera, Moda, PacificSource, TRICARE, United, and Anthem. Our team can help verify benefits before you begin.",
+        a: "Yes. Most major plans are accepted, including Aetna, Cigna, Providence, Kaiser, Regence, Premera, Moda, PacificSource, TRICARE, United, and Anthem. Our team can help verify benefits before you begin.",
       },
       {
         q: "What is TMS therapy?",
@@ -252,7 +252,7 @@ export const copy = {
   bookConsult: {
     eyebrow: "Schedule",
     headline: ctas.bookConsult,
-    body: "Pick a time that works for you. We’ll answer questions about TMS and SPRAVATO®, review next steps, and help you understand your options — no pressure.",
+    body: "Pick a time that works for you. We’ll answer questions about TMS and SPRAVATO®, review next steps, and help you understand your options, with no pressure.",
     callPrompt: "Prefer to talk first?",
     qualifyLink: "Find out if you Qualify instead",
   },
@@ -281,7 +281,7 @@ export const copy = {
   footer: {
     bookCta: ctas.bookConsult,
     tagline:
-      "Personalized psychiatric care across Oregon and Washington — TMS Therapy, SPRAVATO®, and a team that never gives up.",
+      "Personalized psychiatric care across Oregon and Washington, with TMS Therapy, SPRAVATO®, and a team that never gives up.",
     disclaimer:
       "This website provides educational information only and is not medical advice. Active Path Mental Health does not provide emergency services. If you are in crisis, call 911 or dial 988 for the Suicide & Crisis Lifeline.",
     eligibility:

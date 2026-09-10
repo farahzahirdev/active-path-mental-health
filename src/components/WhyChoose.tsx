@@ -23,7 +23,7 @@ export function WhyChoose() {
               <div className="relative aspect-[4/3] w-full sm:aspect-[16/10] lg:aspect-[3/4]">
                 <Image
                   src={site.images.whyChoose}
-                  alt="Person reflecting at home — seeking new options for depression care"
+                  alt="Person reflecting at home, seeking new options for depression care"
                   fill
                   sizes="(max-width: 1023px) 100vw, 38vw"
                   className="why-choose-visual-img object-cover object-center"

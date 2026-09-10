@@ -56,7 +56,7 @@ export const site = {
     {
       name: "Ryan Dozler",
       role: "PMHNP, BSN, RN",
-      bio: "Specializes in TMS, SPRAVATO®, and medication management at NW Portland and Salem — offering interventional options when wellness takes many forms.",
+      bio: "Specializes in TMS, SPRAVATO®, and medication management at NW Portland and Salem, offering interventional options when wellness takes many forms.",
       image: "/images/providers/ryan-dozler.png",
     },
     {

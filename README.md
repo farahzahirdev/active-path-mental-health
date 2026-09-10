@@ -1,6 +1,6 @@
 # Active Path Mental Health Landing Page
 
-Marketing landing page for Active Path Mental Health — TMS Therapy and SPRAVATO® across Oregon and Washington.
+Marketing landing page for Active Path Mental Health: TMS Therapy and SPRAVATO® across Oregon and Washington.
 
 Built on the TMS of Austin / Breakthrough TMS pattern with Active Path brand colors (`#3F90C9` / `#1D2C4C`) and assets from [activepath.com](https://activepath.com).
 

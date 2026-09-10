@@ -31,7 +31,7 @@ export function Spravato() {
                   </span>
                   <h3 className="mt-5 !text-[#f5fbfc]">SPRAVATO® in clinic</h3>
                   <p className="mt-3 text-sm leading-relaxed text-bt-lavender">
-                    Supervised nasal spray for treatment-resistant depression — often
+                    Supervised nasal spray for treatment-resistant depression, often
                     covered by insurance when clinically appropriate.
                   </p>
                 </div>
