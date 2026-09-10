@@ -13,21 +13,19 @@ export function GhlCalendarEmbed() {
     resize listener is ready before the widget posts its height.
   */
   return (
-    <div className="w-full overflow-hidden rounded-[20px] bg-white">
-      <iframe
-        src={calendar.src}
-        id={calendar.iframeId}
-        title={calendar.title}
-        allow="payment"
-        scrolling="no"
-        className="block w-full border-0"
-        style={{
-          width: "100%",
-          height: CALENDAR_HEIGHT,
-          minHeight: CALENDAR_HEIGHT,
-          overflow: "hidden",
-        }}
-      />
-    </div>
+    <iframe
+      src={calendar.src}
+      id={calendar.iframeId}
+      title={calendar.title}
+      allow="payment"
+      scrolling="no"
+      className="block w-full border-0 bg-transparent"
+      style={{
+        width: "100%",
+        height: CALENDAR_HEIGHT,
+        minHeight: CALENDAR_HEIGHT,
+        overflow: "hidden",
+      }}
+    />
   );
 }

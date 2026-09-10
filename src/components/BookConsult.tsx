@@ -32,10 +32,8 @@ export function BookConsult() {
             </div>
           </Reveal>
 
-          <div className="animate-fade-in" style={{ animationDelay: "100ms" }}>
-            <div className="bt-embed-panel">
-              <GhlCalendarEmbed />
-            </div>
+          <div className="animate-fade-in min-w-0" style={{ animationDelay: "100ms" }}>
+            <GhlCalendarEmbed />
           </div>
         </div>
       </div>
