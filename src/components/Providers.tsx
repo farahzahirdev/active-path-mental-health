@@ -1,9 +1,14 @@
+"use client";
+
 import Image from "next/image";
+import { useState } from "react";
 import { copy } from "@/content/copy";
 import { site } from "@/content/site";
 import { Button } from "./Button";
 import { Reveal, StaggerGrid } from "./Reveal";
 import { SectionHeader } from "./SectionHeader";
+
+const DESKTOP_INITIAL = 6;
 
 function ProviderCard({
   provider,
@@ -33,6 +38,12 @@ function ProviderCard({
 }
 
 export function Providers() {
+  const [expanded, setExpanded] = useState(false);
+  const hasMore = site.providers.length > DESKTOP_INITIAL;
+  const desktopProviders = expanded
+    ? site.providers
+    : site.providers.slice(0, DESKTOP_INITIAL);
+
   return (
     <section id="providers" className="bt-section" aria-labelledby="providers-heading">
       <div className="mx-auto max-w-content px-4 sm:px-6 lg:px-8">
@@ -45,7 +56,7 @@ export function Providers() {
         </Reveal>
       </div>
 
-      {/* Mobile / tablet: horizontal scroll */}
+      {/* Mobile / tablet: horizontal scroll — all providers */}
       <div className="ap-providers-scroll mt-10 lg:hidden" aria-label="Providers carousel">
         <ul className="ap-providers-track">
           {site.providers.map((provider) => (
@@ -56,13 +67,26 @@ export function Providers() {
         </ul>
       </div>
 
-      {/* Desktop grid */}
+      {/* Desktop grid — 6 first, then load more */}
       <div className="mx-auto mt-12 hidden max-w-content px-4 sm:px-6 lg:block lg:px-8">
         <StaggerGrid className="grid gap-5 lg:grid-cols-3" staggerMs={70}>
-          {site.providers.map((provider) => (
+          {desktopProviders.map((provider) => (
             <ProviderCard key={provider.name} provider={provider} />
           ))}
         </StaggerGrid>
+
+        {hasMore ? (
+          <div className="mt-8 flex justify-center">
+            <Button
+              type="button"
+              variant="secondary"
+              onClick={() => setExpanded((prev) => !prev)}
+              aria-expanded={expanded}
+            >
+              {expanded ? "Show less" : "Show more"}
+            </Button>
+          </div>
+        ) : null}
       </div>
 
       <Reveal delay={100}>
