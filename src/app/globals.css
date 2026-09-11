@@ -595,12 +595,12 @@ html {
 
 .bt-hero-bg-img {
   object-fit: cover;
-  object-position: 78% 28%;
+  object-position: 70% center;
 }
 
 @media (min-width: 1024px) {
   .bt-hero-bg-img {
-    object-position: 82% 30%;
+    object-position: 72% center;
   }
 }
 
@@ -608,50 +608,27 @@ html {
   position: absolute;
   inset: 0;
   z-index: 1;
-  background:
-    linear-gradient(
-      95deg,
-      rgba(248, 250, 251, 0.98) 0%,
-      rgba(248, 250, 251, 0.94) 40%,
-      rgba(238, 244, 247, 0.82) 58%,
-      rgba(248, 250, 251, 0.45) 72%,
-      transparent 88%
-    ),
-    linear-gradient(
-      180deg,
-      rgba(248, 250, 251, 0.97) 0%,
-      rgba(248, 250, 251, 0.92) 45%,
-      rgba(238, 244, 247, 0.86) 100%
-    ),
-    linear-gradient(to top, rgba(248, 250, 251, 0.88) 0%, transparent 32%);
+  background: linear-gradient(
+    to right,
+    rgba(248, 250, 251, 0.94) 0%,
+    rgba(248, 250, 251, 0.82) 22%,
+    rgba(248, 250, 251, 0.48) 42%,
+    rgba(248, 250, 251, 0.16) 62%,
+    transparent 82%
+  );
   pointer-events: none;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
   .bt-hero-overlay {
-    background:
-      linear-gradient(
-        to right,
-        rgba(248, 250, 251, 0.97) 0%,
-        rgba(248, 250, 251, 0.93) 26%,
-        rgba(238, 244, 247, 0.72) 36%,
-        rgba(248, 250, 251, 0.26) 46%,
-        rgba(248, 250, 251, 0.06) 56%,
-        transparent 66%
-      ),
-      linear-gradient(
-        to top,
-        rgba(248, 250, 251, 0.78) 0%,
-        rgba(248, 250, 251, 0.28) 14%,
-        rgba(248, 250, 251, 0.06) 24%,
-        transparent 34%
-      ),
-      radial-gradient(
-        ellipse 70% 55% at 100% 100%,
-        rgba(248, 250, 251, 0.32) 0%,
-        rgba(248, 250, 251, 0.08) 38%,
-        transparent 58%
-      );
+    background: linear-gradient(
+      to right,
+      rgba(248, 250, 251, 0.9) 0%,
+      rgba(248, 250, 251, 0.72) 26%,
+      rgba(248, 250, 251, 0.32) 48%,
+      rgba(248, 250, 251, 0.08) 68%,
+      transparent 86%
+    );
   }
 }
 
@@ -890,7 +867,7 @@ html {
   }
 
   .bt-hero-bg-img {
-    object-position: 70% 25%;
+    object-position: 68% center;
   }
 }
 

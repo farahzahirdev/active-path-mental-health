@@ -21,7 +21,7 @@ export const site = {
     faq: "/#faq",
   },
   images: {
-    hero: "/images/hero-bg.jpg",
+    hero: "/images/new-hero.png?v=2",
     tmsTreatment: "/images/find-relief.webp",
     whyChoose: "/images/why-choose.png",
     spravato: "/images/path-forward.png",
